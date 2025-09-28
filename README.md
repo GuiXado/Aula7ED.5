@@ -14,15 +14,17 @@ a. Inicialize uma nova fila
 b. Insira 30 clientes com suas características, sendo:
 
 i. Nome (Pessoa1, Pessoa2, Pessoa3, ...)
+
 ii. Idade (Número entre 10 e 40)
+
 iii. Altura (Número entre 1.35 e 2.00)
 
-4) Criar uma classe controller chamada ParqueController, que tenha um método brinquedo(Fila fila): void, que receba a fila populada, como parâmetro, e faça, para cada Cliente:
+3) Criar uma classe controller chamada ParqueController, que tenha um método brinquedo(Fila fila): void, que receba a fila populada, como parâmetro, e faça, para cada Cliente:
    
 a. Verificar se a pessoa está em condições de ir ao brinquedo
 
 b. Exibir o nome do cliente, se passou para dentro do brinquedo ou não e a razão
 
-6) O método main da classe Principal.java deve chamar o método brinquedo(Fila fila): void.
+4) O método main da classe Principal.java deve chamar o método brinquedo(Fila fila): void.
 
 O método brinquedo(Fila fila): void deve estar baseado nas operações da fila (insert(), remove(), list(), size(), isEmpty())
